@@ -161,7 +161,7 @@ class MessageManager extends BaseManager {
   }
 
   /**
-   * Unins a message from the channel's pinned messages, even if it's not cached.
+   * Unpins a message from the channel's pinned messages, even if it's not cached.
    * @param {MessageResolvable} message The message to unpin
    * @returns {Promise<void>}
    */
